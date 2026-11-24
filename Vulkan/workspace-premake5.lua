@@ -7,8 +7,6 @@ end
 SDL_BIN_PATH = _MAIN_SCRIPT_DIR .. "/../SDL/build/"
 GLFW_BIN_PATH = _MAIN_SCRIPT_DIR .. "/../glfw"
 
-print(SDL_BIN_PATH)
-
 workspace "MyWorkspace"
     configurations { "Debug", "Release" }
 
