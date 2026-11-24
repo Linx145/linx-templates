@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/../volk",
+                "${workspaceFolder}/../Astral.Core/Astral.Core",
+                "${workspaceFolder}/../Astral.Core/Astral.Plane",
+                "C:/VulkanSDK/1.4.363.0/Include"
+            ],
+            "defines": [
+                "WINDOWS",
+                "DEBUG"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/../volk",
+                "${workspaceFolder}/../Astral.Core/Astral.Core",
+                "${workspaceFolder}/../Astral.Core/Astral.Plane",
+                "~/vulkan/1.4.363.0/x86_64/include"
+            ],
+            "defines": [
+                "LINUX",
+                "POSIX",
+                "DEBUG",
+                "X11"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "MacOS",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/../volk",
+                "${workspaceFolder}/../Astral.Core/Astral.Core",
+                "${workspaceFolder}/../Astral.Core/Astral.Plane",
+                "${env:HOME}/VulkanSDK/1.4.363.0/MacOS/include"
+            ],
+            "defines": [
+                "MACOS",
+                "POSIX",
+                "DEBUG"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
